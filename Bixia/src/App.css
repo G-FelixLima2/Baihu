@@ -6,6 +6,34 @@
 }
 
 .Obscurus {
-    background-color: #16002E;
+    background-image: radial-gradient(circle, #16002E, #0E001C);
+    display: flex;
+    align-items: center;
 }
 
+.Obscurus .divText {
+    text-align: center;
+    color: #ffebcd;
+    padding: 3px;
+    border-right: 4px solid gold;
+
+    text-shadow: 0 0 2px #ffebcd;
+}
+
+.Obscurus .divBut {
+    width: 100%;
+    border-top: 2px solid gold;
+    border-bottom: 2px solid gold;
+}
+
+.Obscurus .divBut button {
+    padding: 5px;
+}
+
+.Obscurus div h1 {
+    font-size: 2.5em;
+}
+
+.Obscurus div p {
+    font-size: 1.5em;
+}
