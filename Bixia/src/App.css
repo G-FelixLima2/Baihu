@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 12px;
 }
 
 .Obscurus {
@@ -11,29 +10,38 @@
     align-items: center;
 }
 
-.Obscurus .divText {
+.Obscurus .sec1 {
     text-align: center;
     color: #ffebcd;
-    padding: 3px;
-    border-right: 4px solid gold;
+    padding: 5px;
+    border-right: 5px solid gold;
 
     text-shadow: 0 0 2px #ffebcd;
 }
 
-.Obscurus .divBut {
+.Obscurus .sec2 {
     width: 100%;
-    border-top: 2px solid gold;
-    border-bottom: 2px solid gold;
-}
+    text-align:center;
 
-.Obscurus .divBut button {
     padding: 5px;
+    border-bottom: 3px solid gold;
+    border-top: 3px solid gold;
 }
 
-.Obscurus div h1 {
-    font-size: 2.5em;
+.Obscurus .sec2 button {
+    margin: 0 10px 0 10px;
+    padding: 5px;
+    background-color: #16002E;
+    border: none;
+    color:#ffebcd;
+    font-size: 1em;
+
+    transition: 0.5s;
 }
 
-.Obscurus div p {
-    font-size: 1.5em;
+.Obscurus .sec2 button:hover {
+    background-color: #0E001C;
+    border-left: 2px solid gold;
 }
+
+/*================================================*/
