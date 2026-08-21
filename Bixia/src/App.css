@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: #ffebcd;
 }
 
 .Obscurus {
@@ -10,16 +11,15 @@
     align-items: center;
 }
 
-.Obscurus .sec1 {
+.sec1 {
     text-align: center;
-    color: #ffebcd;
     padding: 5px;
     border-right: 5px solid gold;
 
     text-shadow: 0 0 2px #ffebcd;
 }
 
-.Obscurus .sec2 {
+.sec2 {
     width: 100%;
     text-align:center;
 
@@ -28,20 +28,45 @@
     border-top: 3px solid gold;
 }
 
-.Obscurus .sec2 button {
+.sec2 button {
     margin: 0 10px 0 10px;
     padding: 5px;
     background-color: #16002E;
     border: none;
-    color:#ffebcd;
     font-size: 1em;
 
     transition: 0.5s;
 }
 
-.Obscurus .sec2 button:hover {
+.sec2 button:hover {
     background-color: #0E001C;
     border-left: 2px solid gold;
 }
 
 /*================================================*/
+.Ignius{
+    display: flex;
+}
+
+.sec3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+
+    width: 283px;
+    background-color: #2D002E;
+}
+
+.sec3 button {
+    padding: 5px;
+    font-size: 1em;
+    background: none;
+    border: solid 1px;
+}
+
+.sec4 {
+    width: 100%;
+    background-color: #0E001C;
+}
