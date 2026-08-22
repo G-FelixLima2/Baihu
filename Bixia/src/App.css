@@ -2,71 +2,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #ffebcd;
+    font-size: 20px;
 }
 
+h1 {
+    font-size: 1.5em;
+}
+/*===========================================================*/
 .Obscurus {
-    background-image: radial-gradient(circle, #16002E, #0E001C);
-    display: flex;
-    align-items: center;
-}
-
-.sec1 {
-    text-align: center;
-    padding: 5px;
-    border-right: 5px solid gold;
-
-    text-shadow: 0 0 2px #ffebcd;
-}
-
-.sec2 {
-    width: 100%;
-    text-align:center;
-
-    padding: 5px;
-    border-bottom: 3px solid gold;
-    border-top: 3px solid gold;
-}
-
-.sec2 button {
-    margin: 0 10px 0 10px;
-    padding: 5px;
-    background-color: #16002E;
-    border: none;
-    font-size: 1em;
-
-    transition: 0.5s;
-}
-
-.sec2 button:hover {
-    background-color: #0E001C;
-    border-left: 2px solid gold;
-}
-
-/*================================================*/
-.Ignius{
-    display: flex;
-}
-
-.sec3 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
+    background-image: linear-gradient(20deg, #16002E, #2b005a);
+    color: #ffffc5;
     padding: 10px;
-
-    width: 283px;
-    background-color: #2D002E;
+    display: flex;
 }
-
-.sec3 button {
-    padding: 5px;
-    font-size: 1em;
-    background: none;
-    border: solid 1px;
-}
-
-.sec4 {
-    width: 100%;
-    background-color: #0E001C;
+/*==========================================================*/
+.Ignius {
+    background-color: ;
 }
