@@ -3,10 +3,15 @@
     padding: 0;
     box-sizing: border-box;
     font-size: 20px;
+    font-family: 'Times New Roman', Times, serif
 }
 
 h1 {
     font-size: 1.5em;
+}
+
+hr {
+    border: 2px solid gold;
 }
 /*===========================================================*/
 .Obscurus {
@@ -28,7 +33,7 @@ h1 {
     margin: 10px;
     padding: 10px;
     border: none;
-    transition: 1ms;
+    transition: 0.5s;
 }
 
 .sec2 button:hover {
@@ -37,6 +42,60 @@ h1 {
 }
 /*==========================================================*/
 .Ignius {
-    background-color: #2b005a;
+    background-image: linear-gradient(20deg, #16002E, #2b005a);
     color: #ffffc5;
+    text-align: center;
+}
+
+.Ignius h1 {
+    font-size: 2.5em;
+}
+/*===========================================================*/
+
+.wrapper {
+    display: flex;
+    gap: 30px;
+    padding: 10px;
+}
+/*===========================================================*/
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-right: 20px;
+    position: relative;
+}
+
+.sidebar::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 5px;
+    background-color: gold;
+    border-radius: 10px;
+    right: 0;
+}
+
+.sidebar button {
+    color: #ffffc5;
+    background-color: #16002E;
+    padding: 5px;
+    border: none;
+    transition: 0.5s;
+}
+/*===========================================================*/
+.lista {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    gap: 20px;
+}
+
+.lista button{
+    color: #ffffc5;
+    background-color: #2b005a;
+    padding: 10px;
+    border: none;
+    font-size: 1.5em;
+    border-radius: 10px;
 }
